@@ -73,7 +73,6 @@ header .main .name .time {
 
 main .primary {
     display: flex;
-    justify-content: space-between;
     border-bottom: 2px solid var(--clr-secondary);
 }
 
@@ -174,7 +173,6 @@ main .double-article-left .article-right {
 .text .description p::first-letter {
     font-size: 1.8rem;
     font-weight: bold;
-    float: left;
     padding-right: 5px;
     color: #8B4513;
     line-height: 1;
@@ -198,7 +196,7 @@ cite {
     margin-top: 10px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
     .main .double-article-left .article-left .description {
         display: flex;
         flex-direction: column;
